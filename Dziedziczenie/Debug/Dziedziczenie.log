@@ -1,0 +1,5 @@
+﻿  main.cpp
+c:\users\sebastian\source\repos\dziedziczenie\dziedziczenie\szescian.h(17): error C2511: „Szescian::Szescian(int,int,int)”: Przeciążona funkcja składowa nie została znaleziona w „Szescian”
+  c:\users\sebastian\source\repos\dziedziczenie\dziedziczenie\szescian.h(6): note: zobacz deklarację „Szescian”
+c:\users\sebastian\source\repos\dziedziczenie\dziedziczenie\szescian.h(19): error C2597: niedozwolone odwołanie do niestatycznej składowej „Szescian::z”
+c:\users\sebastian\source\repos\dziedziczenie\dziedziczenie\main.cpp(13): error C2661: "Szescian::Szescian": brak przeciążonej funkcji przyjmującej 3 argumenty
