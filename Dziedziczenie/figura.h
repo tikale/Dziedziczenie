@@ -3,21 +3,13 @@
 
 class Figura
 {
-public:
-	Figura();
-	~Figura();
-	
+private:
 	int pole;
 	int obwod;
+public:
+	Figura();
+	Figura(int PoleFig, int ObwodFig);
+	~Figura();
 };
-
-Figura::Figura()
-{
-}
-
-Figura::~Figura()
-{
-}
-
 
 #endif

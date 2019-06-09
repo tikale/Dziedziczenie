@@ -13,14 +13,5 @@ private:
 	int z;
 };
 
-Szescian::Szescian(int a, int b, int c)
-{
-	Kwadrat(a, b);
-	z = c;
-}
-
-Szescian::~Szescian()
-{
-}
 #endif // !SZESCIAN_H
 

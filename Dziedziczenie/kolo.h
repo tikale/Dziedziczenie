@@ -13,14 +13,5 @@ private:
 
 };
 
-Kolo::Kolo()
-{
-}
-
-Kolo::~Kolo()
-{
-}
-
-
 #endif // !KOLO_H
 

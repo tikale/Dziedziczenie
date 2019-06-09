@@ -13,12 +13,5 @@ private:
 
 };
 
-Trojkat::Trojkat()
-{
-}
-
-Trojkat::~Trojkat()
-{
-}
 #endif // !TROJKAT_H
 

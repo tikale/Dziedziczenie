@@ -6,6 +6,7 @@
 class Kwadrat : public Figura
 {
 public:
+	Kwadrat();
 	Kwadrat(int a, int b);
 	~Kwadrat();
 
@@ -13,16 +14,6 @@ private:
 	int x;
 	int y;
 };
-
-Kwadrat::Kwadrat(int a, int b)
-{
-	x = a;
-	y = b;
-}
-
-Kwadrat::~Kwadrat()
-{
-}
 
 #endif // !KWADRAT_H
 

@@ -1,6 +1,8 @@
 #include <iostream>
 #include "kwadrat.h"
 #include "szescian.h"
+#include "trojkat.h"
+#include "kolo.h"
 
 using namespace std;
 
