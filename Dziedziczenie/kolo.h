@@ -6,10 +6,16 @@
 class Kolo : public Figura
 {
 public:
+	Kolo(int r);
 	Kolo();
 	~Kolo();
+	int ObliczPole();
+	int ObliczObwod();
+	void WypiszDane();
 
-private:
+protected:
+	int r;
+	const double pi = 3.141592653589;
 
 };
 

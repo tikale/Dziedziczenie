@@ -1,0 +1,23 @@
+D21.
+Wypisaæ definicje, napisaæ program stosuj¹cy wszystkie 4.
+(abstrakcja, hermetyzacja, polimorfizm, dziedziczenie)
+
+
+- Idea klasy abstrakcyjnej
+Klasa abstrakcyjna jest pewnym uogólnieniem innych klas (na przyk³ad dla wystêpuj¹cych w rzeczywistoœci obiektów), lecz sama jako taka nie istnieje. Ustalmy, ¿e przez "figurê" bêdziemy rozumieæ "ko³o", "kwadrat" lub "trójk¹t". Te obiekty matematyczne mog¹ byæ reprezentowane przez pewne klasy. Obiekty te posiadaj¹ ju¿ konkretne w³aœciwoœci takie jak promieñ (dla konkretnego ko³a) czy d³ugoœæ boku (dla konkretnego kwadratu). Klasy tych obiektów wywodz¹ siê z pewnej uogólnionej klasy okreœlanej jako po prostu figura. Jednak nie jesteœmy w stanie okreœliæ jak¹ konstrukcjê mia³by obiekt klasy figura, poniewa¿ figura geometryczna jako taka nie istnieje. Istniej¹ natomiast wywodz¹ce siê od niej klasy ko³o czy kwadrat. Dodatkowo oczywistym jest, ¿e figura nie posiada konkretnej wartoœci pola czy obwodu, jednak ju¿ na tym etapie wiemy, ¿e ka¿da figura tak zdefiniowana (ko³o, kwadrat czy trójk¹t) posiada pole i obwód, które bêdzie ró¿nie obliczane dla ró¿nych figur. Dziêki temu figura definiuje pewien interfejs dla klas wywodz¹cych siê od niej. 
+C++
+W C++ klas¹ abstrakcyjn¹ jest klasa, która posiada zadeklarowan¹ co najmniej jedn¹ metodê czysto wirtualn¹. Ka¿da klasa, która dziedziczy po klasie abstrakcyjnej i sama nie chce byæ abstrakcyjn¹, musi implementowaæ wszystkie odziedziczone metody czysto wirtualne. 
+
+
+- hermetyzacja:
+Hermetyzacja (kalk. „enkapsulacja”[1], w starszych pozycjach „kapsu³kowanie”, od ang. encapsulation) – jedno z za³o¿eñ programowania obiektowego. Hermetyzacja polega na ukrywaniu pewnych danych sk³adowych lub metod obiektów danej klasy tak, aby by³y one dostêpne tylko metodom wewnêtrznym danej klasy lub funkcjom zaprzyjaŸnionym.
+
+Gdy dostêp do wszystkich pól danej klasy jest mo¿liwy wy³¹cznie poprzez metody, lub inaczej mówi¹c: gdy wszystkie pola w klasie znajduj¹ siê w sekcji prywatnej lub chronionej, to tak¹ hermetyzacjê nazywa siê hermetyzacj¹ pe³n¹. 
+
+- polimorfizm
+Polimorfizm (z gr. wielopostaciowoœæ) – mechanizmy pozwalaj¹ce programiœcie u¿ywaæ wartoœci, zmiennych i podprogramów na kilka ró¿nych sposobów[1]. Inaczej mówi¹c jest to mo¿liwoœæ wyabstrahowania wyra¿eñ od konkretnych typów[2]. 
+/ Przeci¹¿anie (lub prze³adowywanie, ang. overloading) pozwala nazwaæ tak samo kilka podprogramów operuj¹cych na ró¿nych danych i nastêpnie obs³ugiwaæ te dane w jednolity sposób. Np. inaczej dodawane s¹ liczby ca³kowite, a inaczej zmiennopozycyjne, ale wygodnie obie te operacje nazywaæ po prostu dodawaniem i oznaczaæ symbolem „+”. W jêzykach bez przeci¹¿ania operatory te musz¹ siê ró¿niæ (np. w OCamlu s¹ oddzielne operatory „+” i „+.”). Przeci¹¿ane mog¹ byæ np. operatory, funkcje, metody, procedury.
+/ funkcjami wirtualnymi.  ( Gdy klasy pochodne mog¹ zastêpowaæ (ang. override) funkcje zdefiniowane w klasach nadrzêdnych)
+
+
+- Dziedziczenie (ang. inheritance) – mechanizm wspó³dzielenia funkcjonalnoœci miêdzy klasami. Klasa mo¿e dziedziczyæ po innej klasie, co oznacza, ¿e oprócz swoich w³asnych atrybutów oraz zachowañ, uzyskuje tak¿e te pochodz¹ce z klasy, z której dziedziczy. Klasa dziedzicz¹ca jest nazywana klas¹ pochodn¹ lub potomn¹ (w j. angielskim: subclass lub derived class), zaœ klasa, z której nastêpuje dziedziczenie — klas¹ bazow¹ (w ang. superclass). Z jednej klasy bazowej mo¿na uzyskaæ dowoln¹ liczbê klas pochodnych. Klasy pochodne posiadaj¹ obok swoich w³asnych metod i pól, równie¿ kompletny interfejs klasy bazowej. 

@@ -115,7 +115,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="figura.cpp" />
     <ClCompile Include="kolo.cpp" />
     <ClCompile Include="kwadrat.cpp" />
     <ClCompile Include="main.cpp" />
