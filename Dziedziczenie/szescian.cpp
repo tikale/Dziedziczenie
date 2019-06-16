@@ -5,27 +5,30 @@ Szescian::Szescian(int a, int b, int c)
 	Kwadrat::SetX(a);
 	Kwadrat::SetY(b);
 	z = c;
+	pole = ObliczPole();
+	Objetosc = ObliczObjetosc();
+	WypiszDane();
 }
 
 int Szescian::ObliczPole()
 {
-	return x * y;
+	return (GetX() * GetY() * 2) + (GetX() * z * 2) + (GetY() * z * 2);
 }
 
-int Szescian::ObliczObwod()
+int Szescian::ObliczObjetosc()
 {
-	return 2 * x + 2 * y;
+	return  GetX() * GetY() * z;
 }
 
 void Szescian::WypiszDane()
 {
 	cout << "Kwadrat !\n";
 	cout << "Dlugosc boku x = ";
-	cout << x;
+	cout << GetX();
 	cout << "\nDlugosc boku y = ";
-	cout << y;
-	cout << "\nObwod wynosi ";
-	cout << obwod;
+	cout << GetY();
+	cout << "\nObjetosc wynosi ";
+	cout << Objetosc;
 	cout << "\nPole powieszchni wynosi ";
 	cout << pole;
 	cout << "\n\n";

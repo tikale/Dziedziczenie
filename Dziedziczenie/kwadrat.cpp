@@ -53,3 +53,13 @@ void Kwadrat::SetY(int OsY)
 {
 	y = OsY;
 }
+
+int Kwadrat::GetX()
+{
+	return x;
+}
+
+int Kwadrat::GetY()
+{
+	return y;
+}

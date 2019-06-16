@@ -11,6 +11,8 @@ public:
 	~Kwadrat();
 	void SetX(int x);
 	void SetY(int y);
+	int GetX();
+	int GetY();
 	int ObliczPole();
 	int ObliczObwod();
 	void WypiszDane();

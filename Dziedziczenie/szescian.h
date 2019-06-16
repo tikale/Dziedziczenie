@@ -13,7 +13,7 @@ public:
 	Szescian(int a, int b, int c);
 	~Szescian();
 	int ObliczPole();
-	int ObliczObwod();
+	int ObliczObjetosc();
 	void WypiszDane();
 
 };
