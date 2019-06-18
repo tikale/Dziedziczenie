@@ -10,12 +10,12 @@ Szescian::Szescian(int a, int b, int c)
 	WypiszDane();
 }
 
-int Szescian::ObliczPole()
+double Szescian::ObliczPole()
 {
 	return (GetX() * GetY() * 2) + (GetX() * z * 2) + (GetY() * z * 2);
 }
 
-int Szescian::ObliczObjetosc()
+double Szescian::ObliczObjetosc()
 {
 	return  GetX() * GetY() * z;
 }

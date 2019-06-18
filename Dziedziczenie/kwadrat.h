@@ -13,8 +13,8 @@ public:
 	void SetY(int y);
 	int GetX();
 	int GetY();
-	int ObliczPole();
-	int ObliczObwod();
+	double ObliczPole();
+	double ObliczObwod();
 	void WypiszDane();
 
 private:

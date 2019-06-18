@@ -16,12 +16,12 @@ Kwadrat::Kwadrat(int a, int b)
 }
 
 
-int Kwadrat::ObliczPole()
+double Kwadrat::ObliczPole()
 {
 	return x * y;
 }
 
-int Kwadrat::ObliczObwod()
+double Kwadrat::ObliczObwod()
 {
 	return 2 * x + 2 * y;
 }

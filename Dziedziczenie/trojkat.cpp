@@ -16,12 +16,12 @@ Trojkat::~Trojkat()
 {
 }
 
-int Trojkat::ObliczPole()
+double Trojkat::ObliczPole()
 {
 	return (a * a * sqrt(3)) / 4 ;
 }
 
-int Trojkat::ObliczObwod()
+double Trojkat::ObliczObwod()
 {
 	return 3 * a;
 }

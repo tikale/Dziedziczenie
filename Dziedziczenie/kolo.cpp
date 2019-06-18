@@ -16,12 +16,12 @@ Kolo::~Kolo()
 {
 }
 
-int Kolo::ObliczPole()
+double Kolo::ObliczPole()
 {
 	return pi * r * r;
 }
 
-int Kolo::ObliczObwod()
+double Kolo::ObliczObwod()
 {
 	return 2 * pi * r;
 }

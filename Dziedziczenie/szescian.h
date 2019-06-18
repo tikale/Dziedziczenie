@@ -7,13 +7,13 @@ class Szescian : public Kwadrat
 {
 protected:
 	int z;
-	int Objetosc;
+	double Objetosc;
 
 public:
 	Szescian(int a, int b, int c);
 	~Szescian();
-	int ObliczPole();
-	int ObliczObjetosc();
+	double ObliczPole();
+	double ObliczObjetosc();
 	void WypiszDane();
 
 };

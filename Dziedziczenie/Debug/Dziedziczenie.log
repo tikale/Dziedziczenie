@@ -1,10 +1,7 @@
 ﻿  kolo.cpp
-c:\users\sebastian\source\repos\dziedziczenie\dziedziczenie\kolo.cpp(21): warning C4244: "return": konwersja z "double" do "int", możliwa utrata danych
-c:\users\sebastian\source\repos\dziedziczenie\dziedziczenie\kolo.cpp(26): warning C4244: "return": konwersja z "double" do "int", możliwa utrata danych
   kwadrat.cpp
   main.cpp
   szescian.cpp
   trojkat.cpp
-c:\users\sebastian\source\repos\dziedziczenie\dziedziczenie\trojkat.cpp(21): warning C4244: "return": konwersja z "double" do "int", możliwa utrata danych
   Generowanie kodu...
   Dziedziczenie.vcxproj -> C:\Users\Sebastian\source\repos\Dziedziczenie\Debug\Dziedziczenie.exe

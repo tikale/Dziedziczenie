@@ -12,10 +12,10 @@ protected:
 	//Figura(int PoleFig, int ObwodFig);
 	//~Figura();
 
-	int pole;
-	int obwod;
-	virtual int ObliczPole() = 0;
-	virtual int ObliczObwod() = 0;
+	double pole;
+	double obwod;
+	virtual double ObliczPole() = 0;
+	virtual double ObliczObwod() = 0;
 	virtual void WypiszDane() {};
 };
 

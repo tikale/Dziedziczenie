@@ -9,8 +9,8 @@ public:
 	Kolo(int r);
 	Kolo();
 	~Kolo();
-	int ObliczPole();
-	int ObliczObwod();
+	double ObliczPole();
+	double ObliczObwod();
 	void WypiszDane();
 
 protected:
