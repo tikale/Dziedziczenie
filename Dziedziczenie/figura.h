@@ -12,8 +12,8 @@ protected:
 	//Figura(int PoleFig, int ObwodFig);
 	//~Figura();
 
-	double pole;
-	double obwod;
+	double pole = 0;
+	double obwod = 0;
 	virtual double ObliczPole() = 0;
 	virtual double ObliczObwod() = 0;
 	virtual void WypiszDane() {};

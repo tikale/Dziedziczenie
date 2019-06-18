@@ -2,7 +2,8 @@
 
 Kwadrat::Kwadrat()
 {
-
+	x = 0;
+	y = 0;
 }
 
 Kwadrat::Kwadrat(int a, int b)
@@ -44,22 +45,22 @@ Kwadrat::~Kwadrat()
 {
 }
 
-void Kwadrat::SetX(int OsX)
+void Kwadrat::SetX(double OsX)
 {
 	x = OsX;
 }
 
-void Kwadrat::SetY(int OsY)
+void Kwadrat::SetY(double OsY)
 {
 	y = OsY;
 }
 
-int Kwadrat::GetX()
+double Kwadrat::GetX()
 {
 	return x;
 }
 
-int Kwadrat::GetY()
+double Kwadrat::GetY()
 {
 	return y;
 }

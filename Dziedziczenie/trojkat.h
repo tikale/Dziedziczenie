@@ -7,7 +7,7 @@
 class Trojkat : public Figura
 {
 public:
-	Trojkat(int a);
+	Trojkat(double a);
 	Trojkat();
 	~Trojkat();
 	double ObliczPole();
@@ -15,7 +15,7 @@ public:
 	void WypiszDane();
 
 protected:
-	int a;
+	double a;
 
 };
 

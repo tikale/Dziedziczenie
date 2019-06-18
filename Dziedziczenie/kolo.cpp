@@ -1,6 +1,6 @@
 #include "kolo.h"
 
-Kolo::Kolo(int promien)
+Kolo::Kolo(double promien)
 {
 	r = promien;
 	pole = ObliczPole();
@@ -10,6 +10,7 @@ Kolo::Kolo(int promien)
 
 Kolo::Kolo()
 {
+	r = 0;
 }
 
 Kolo::~Kolo()

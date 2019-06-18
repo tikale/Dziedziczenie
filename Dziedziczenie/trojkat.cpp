@@ -1,6 +1,6 @@
 #include "trojkat.h"
 
-Trojkat::Trojkat(int bok)
+Trojkat::Trojkat(double bok)
 {
 	a = bok;
 	pole = ObliczPole();
@@ -10,6 +10,7 @@ Trojkat::Trojkat(int bok)
 
 Trojkat::Trojkat()
 {
+	a = 0;
 }
 
 Trojkat::~Trojkat()

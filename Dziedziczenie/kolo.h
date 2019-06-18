@@ -6,7 +6,7 @@
 class Kolo : public Figura
 {
 public:
-	Kolo(int r);
+	Kolo(double r);
 	Kolo();
 	~Kolo();
 	double ObliczPole();
@@ -14,7 +14,7 @@ public:
 	void WypiszDane();
 
 protected:
-	int r;
+	double r;
 	const double pi = 3.141592653589;
 
 };

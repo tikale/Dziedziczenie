@@ -17,7 +17,9 @@ double Szescian::ObliczPole()
 
 double Szescian::ObliczObjetosc()
 {
+	//poniewa¿ klasa kwadrat z której dziedziczymy x i y ma private nie mamy do nich bezpoœredniego dostêpu
 	return  GetX() * GetY() * z;
+	//return  x * y * z;  //mo¿na by tak zrobiæ gdyby klasa Kwadrat uzna³a klasê Szescian za klasê zaprzyjaŸnion¹
 }
 
 void Szescian::WypiszDane()
